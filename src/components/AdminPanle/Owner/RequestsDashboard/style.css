@@ -1,0 +1,25 @@
+#request-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    text-align: start;
+    padding: 2px; 
+    margin-right: 12px;
+
+}
+#request-div button {
+    color: black;
+    text-align: start;
+    padding: 4px;
+    background-color: rgb(16, 113, 42);
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 1px 1px 1px 1px rgb(15, 15, 15);
+    color: white;
+    font-size: 90%;
+    cursor: pointer;
+  }
+  #request-div button:hover {
+    background-color: rgb(42, 165, 126);
+  }

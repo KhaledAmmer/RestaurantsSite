@@ -1,0 +1,31 @@
+*{
+  padding: 0px;
+  margin: 0px; 
+  box-sizing: border-box; 
+}
+.App {
+  text-align: center;
+  
+}
+:root{
+  --first-color: white;
+  --second-color: orange;
+  --third-color:black;
+  --forth-color: rgba(210, 185, 138, 0);
+  --input-br-color: #E8F0FE;
+  --input-padding:10px;
+  --border-radius: 5px;
+  --button-padding:5px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(5, 5, 5);
+}

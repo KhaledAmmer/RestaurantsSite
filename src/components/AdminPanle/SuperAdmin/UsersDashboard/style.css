@@ -1,0 +1,119 @@
+#NavigationBarPanel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(18, 59, 77);
+  box-shadow: 0px 0px 2px 0px white;
+  padding: 3px;
+  color: black;
+}
+#user-img2-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-right: 8px;
+  color: white;
+  height: 40px;
+}
+#user-img2-div img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+#adduser-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  text-align: start;
+  padding: 2px;
+}
+
+#adduser-div button {
+  color: black;
+  text-align: start;
+  padding: 4px;
+  margin-right: 6px;
+  background-color: rgb(16, 113, 42);
+  border-radius: 5px;
+  border: 0px;
+  box-shadow: 1px 1px 1px 1px rgb(15, 15, 15);
+  color: white;
+  font-size: 90%;
+  cursor: pointer;
+}
+#adduser-div button:hover {
+  background-color: rgb(42, 165, 126);
+}
+
+.user-dashboard {
+  width: 99.8%;
+  background-color: rgba(18, 59, 77, 0.915);
+  border: 2px solid black;
+  margin-left: 1px;
+}
+
+.user-row {
+  display: grid;
+  padding: 5px;
+  text-align: center;
+  font-size: 70%;
+  color: white;
+  grid-template-columns: 3% 15% 25% 15% 20% 22%;
+  align-items: center;
+  border-bottom: 2px solid rgba(19, 18, 18, 0.393);
+}
+.user-row h4 {
+  overflow: hidden;
+  font-weight: 200;
+}
+
+#edit-btns-div {
+  display: flex;
+}
+#edit-btns-div button {
+  flex: 1;
+  border: 0px;
+  margin: 2px;
+  padding: 3px;
+  background-color: rgb(16, 113, 42);
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px black;
+  color: white;
+  font-size: 90%;
+  cursor: pointer;
+}
+#edit-btns-div button:hover {
+  background-color: rgb(42, 165, 126);
+}
+
+#dash-title-div {
+  background-color: rgb(34, 35, 36);
+  color: white;
+  box-shadow: 2px 2px 2px 2px rgba(11, 11, 11, 0.999);
+}
+#delete-pop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  text-align: start;
+  color: white;
+  background-color: rgba(255, 253, 251, 0.358);
+  left: 0;
+  top:0;
+}
+#inner-delete-pop{
+height:fit-content;
+width: 300px;
+padding: 10px;
+border-radius: 10px;
+background-color: rgb(34, 35, 36);
+}
+
+#inner-delete-pop button{
+  margin-top: 16px;
+  }

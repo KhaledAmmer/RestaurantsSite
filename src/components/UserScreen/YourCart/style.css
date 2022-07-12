@@ -1,0 +1,32 @@
+#empty-cart {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  text-align: start;
+  padding: 10px;
+}
+
+#empty-cart img {
+  width: 100%;
+  max-width: 100px;
+}
+#empty-cart h4 {
+  width: 100%;
+  text-align: start;
+}
+.cart-icon {
+  font-size: 120%;
+  cursor: pointer;
+  color: orange;
+  border-radius: 50%;
+  
+  box-shadow: 1px 1px 1px black;
+}
+.cart-icon1 {
+  font-size: 120%;
+
+  cursor: pointer;
+  color: orange;
+  border-radius: 50%;
+}

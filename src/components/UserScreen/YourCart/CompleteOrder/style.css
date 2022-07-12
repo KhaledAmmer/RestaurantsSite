@@ -1,0 +1,487 @@
+.table-row {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 10% 22% 22% 22% 24%;
+  text-align: center;
+}
+#location-div-main {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  
+}
+.input3 {
+  padding: 10px;
+  
+  width: 100%;
+  margin-bottom: 2px;
+  border-radius: 10px;
+  border: 0.5px solid black;
+}
+.location-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  margin:7px;
+  border-bottom: 0.5px solid black;
+}
+#summary2 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  gap: 10px;
+  padding: 5px;
+}
+#empty-addr{
+  display: flex;
+  flex: 1;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+#empty-addr h2{
+ position: absolute;
+ color: rgba(13, 13, 10, 0.551);
+}
+#empty-addr img{
+  width: 30%;
+}
+#pop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background-color: rgba(240, 248, 255, 0.656);
+  top: 0%;
+  left: 0%;
+}
+#inner-pop{
+  width: 50%;
+  height: fit-content;
+  height: fit-content;
+  padding: 5px;
+  width: 50%;
+  max-width:400px;
+  background-color: orange;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px black;
+}
+#inner-pop h2{
+  text-align: start;
+  padding: 5px;
+  font-size: 130%;
+}
+#inner-pop h5{
+  text-align: start;
+  padding: 5px;
+  font-size: 100%;
+}
+
+
+
+#summery {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  max-width: 550px;
+  width: 100%;
+  box-shadow: 0px 1px 3px 1px var(--third-color);
+  background-color: var(--first-color);
+}
+
+.completeOrder {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    var(--first-color),
+    rgb(233, 207, 157),
+    rgb(255, 213, 136)
+  );
+}
+
+.order {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+  background-color: transparent;
+  position: relative;
+
+  text-align: start;
+
+  padding: 20px;
+
+  /* border: 4px solid var(  --second-color); */
+}
+
+.h2_order {
+  color: #212121;
+  font-size: 27px;
+  font-weight: 400 !important;
+  font-family: open_sanssemibold;
+}
+
+.size {
+}
+/*...........summaryOrder..................*/
+
+.summaryOrder {
+  border-radius: 10px;
+  /* border: 1px solid  var(  --second-color);; */
+  background-color: var(--first-color);
+  /* box-shadow: 2px 1px 10px var(--second-color); */
+  box-shadow: 0px 1px 3px 1px var(--third-color);
+  /* background-color: transparent; */
+  /* border: 4px solid rgb(238, 238, 238); */
+}
+.divSummary {
+  border-radius: 15px;
+  height: 10vh;
+  /* border: 1px solid  var(  --second-color);; */
+  border-bottom: 4px solid rgb(238, 238, 238);
+  padding: 10px;
+  background-color: var(--first-color);
+}
+.orderinformation {
+  padding: 10px;
+  /* background-color: darkgoldenrod; */
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.orderinformationtwo {
+  display: flex;
+  flex-direction: row;
+  /* gap:20px; */
+  /* background-color: cornsilk; */
+  background-color: rgb(238, 248, 290);
+}
+
+.restaauranttName {
+  font-size: 24px;
+  color: #212121;
+  font-weight: 400 !important;
+  font-family: open_sanssemibold;
+}
+
+.items {
+  width: 35vw;
+  /* background-color: crimson; */
+  font-size: 25px;
+  color: #212121;
+  font-weight: 400 !important;
+  font-family: open_sanssemibold;
+}
+.title_tow {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  width: 25vw;
+
+  font-size: 25px;
+  /* color: #212121; */
+  font-weight: 400 !important;
+  font-family: open_sanssemibold;
+}
+.h2 {
+  font-size: 25px;
+  /* color: #212121; */
+  font-weight: 400 !important;
+  font-family: open_sanssemibold;
+}
+.orderinformationthree {
+  /* background-color: darkgreen; */
+  position: relative;
+  top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.mealItems {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.div_return_map {
+  display: flex;
+  flex-direction: row;
+  /* background-color: cornsilk; */
+}
+.NameMeal {
+  width: 35vw;
+  font-size: 20px;
+  /* color: #212121; */
+  font-weight: 400 !important;
+  font-family: open_sanssemibold;
+  /* background-color: rgb(125, 139, 0); */
+}
+.insted__div_return_map {
+  width: 25vw;
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+
+  position: relative;
+  left: 9px;
+  padding: 10px;
+}
+.h3_Pri {
+  position: relative;
+  left: 20px;
+}
+.h3_quntity {
+  position: relative;
+  /* left: 40vw; */
+}
+
+.h3_price {
+  position: relative;
+  /* left: 45vw; */
+}
+
+.h3_totalprice {
+  position: relative;
+  /* left: 45vw; */
+}
+
+.sumprice {
+  position: relative;
+  left: 60vw;
+}
+
+/*..... location      ..................                ............*/
+
+.location {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* width: 40vw; */
+  box-shadow: 0px 1px 3px 1px var(--third-color);
+  background-color: var(--first-color);
+}
+.Enterh2_order {
+  display: flex;
+  flex-direction: row;
+
+  border-bottom: 4px solid rgb(238, 238, 238);
+  padding: 10px;
+}
+.Enter {
+  width: 538px;
+  border-right: 4px solid rgb(238, 238, 238);
+  /* background-color: crimson; */
+}
+.locationTow {
+  display: flex;
+  flex-direction: row;
+  /* background-color: cornflowerblue; */
+  padding: 10px;
+}
+.inputLocation {
+  width: 43vw;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-right: 4px solid rgb(238, 238, 238);
+}
+
+.inputtag {
+  border-radius: 10px;
+  padding: 10px;
+  height: 30px;
+  width: 13vw;
+}
+.cityandarea {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.Number {
+  border-radius: 10px;
+  /* padding: 10px; */
+  /* width: 35vw; */
+  height: 25px;
+  width: 29.3vw;
+}
+.inputtagNumber {
+  border-radius: 10px;
+  padding: 10px;
+  height: 25px;
+  width: 29.3vw;
+}
+/* .divColorMessage{
+    padding: 20px;
+} */
+.messageColor {
+  /* padding: 10px; */
+  color: rgb(160, 23, 23);
+  position: relative;
+  left: 20px;
+}
+
+/*.....  past location      ..................                ............*/
+.userPastLocation {
+  width: 30vw;
+  /* background-color: darkgreen; */
+}
+.imgadresss {
+  width: 8vw;
+  height: 18vh;
+  opacity: 0.5;
+  position: relative;
+  left: 8vw;
+  bottom: 18px;
+}
+
+.pastlocationmessage {
+  position: relative;
+  left: 60px;
+  top: 60px;
+  font-size: 18px;
+  opacity: 0.6;
+  /* color: #212121; */
+  /* font-weight: 400!important;
+    font-family: open_sanssemibold; */
+}
+.divimageee {
+  display: flex;
+  flex-direction: column;
+  /* background-color: crimson; */
+}
+/*......................*/
+.div45 {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+}
+.h2userLocation {
+  position: relative;
+  left: 30px;
+  font-size: 16px;
+  color: #212121;
+  font-weight: 400 !important;
+  font-family: open_sanssemibold;
+}
+
+.iftrue {
+  width: 180px;
+  height: 150px;
+  /* background-color: crimson; */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  position: relative;
+  left: 20px;
+}
+.h2h2h2333 {
+  width: 140px;
+
+  font-size: 18px;
+  color: #212121;
+  font-weight: 400 !important;
+  font-family: open_sanssemibold;
+}
+
+.selelctadresss {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: var(--first-color);
+  /* box-shadow: 2px 1px 8px var(--second-color); */
+  box-shadow: 0px 1px 3px 1px var(--third-color);
+
+  /* border: 4px solid rgb(238, 238, 238); */
+}
+.Selecth2_order {
+  padding: 10px;
+  border-bottom: 4px solid rgb(238, 238, 238);
+}
+.divnewAdress {
+  /* width: 20px; */
+  /* background-color: darkorchid; */
+}
+.inputSelect {
+  width: 40px;
+  /* height: 80px; */
+}
+
+/*..... Payment      ..................                ............*/
+
+#card-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: rgb(252, 241, 221);
+  border-radius: 5px;
+}
+
+#card-view input {
+  padding: 10px;
+  width: 90%;
+  border: 0.5px solid rgba(0, 0, 0, 0.507);
+  border-radius: 10px;
+}
+
+#card-view select {
+  padding: 5px;
+  margin: 5px;
+  border: 0.5px solid rgba(0, 0, 0, 0.507);
+  border-radius: 10px;
+}
+
+#card-view h3 {
+  margin: 2px;
+  text-transform: capitalize;
+}
+#visa-card-img {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  gap: 5px;
+}
+#payment-div-de {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.subTotal {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 5px;
+}
+
+.subTotal h2 {
+  width: 50%;
+  font-size: 100%;
+}
+.subTotal h3 {
+  width: 50%;
+  font-size: 100%;
+  text-align: center;
+}
+#place-btn {
+  margin-top: 10px;
+}

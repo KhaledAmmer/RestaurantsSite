@@ -1,0 +1,104 @@
+#order-form12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  z-index: 100;
+  position: fixed;
+  width: 100vw;
+  min-height: 100vh;
+  color: black;
+  text-align: start;
+  background-color: rgba(4, 8, 12, 0.722);
+  top: 0;
+  left: 0;
+  overflow-wrap: break-word;
+  text-align: start;
+}
+
+#order-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 80%;
+  max-width: 800px;
+  height: fit-content;
+  padding: 10px;
+  border: 0px solid black;
+  border-radius: var(--border-radius);
+  background-color: var(--first-color);
+  box-shadow: 0px 0px 2px black;
+  gap: 4px;
+}
+#order-inner h3 {
+  color: rgb(14, 17, 14);
+  text-shadow: 0px 1px 1px black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.meal-row {
+  display: grid;
+  padding: 5px;
+  text-align: center;
+  font-size: 80%;
+  color: white;
+  grid-template-columns: 10% 30% 30% 30%;
+  align-items: center;
+}
+
+.meal-row3 {
+  display: grid;
+  padding: 5px;
+  text-align: center;
+  font-size: 80%;
+  color: white;
+  grid-template-columns: 15% 25% 25% 20% 15%;
+  align-items: center;
+  border-bottom: 2px solid rgba(19, 18, 18, 0.393);
+}
+.meal-row1 {
+  display: grid;
+  padding: 5px;
+  text-align: center;
+  font-size: 100%;
+  color: rgb(11, 10, 10);
+  border-bottom: 1px solid black;
+  grid-template-columns: 10% 30% 30% 30%;
+  align-items: center;
+  justify-content: center;
+}
+h5 {
+  margin: 0px;
+}
+.meal-row2 {
+  display: grid;
+  padding: 5px;
+  text-align: center;
+  font-size: 100%;
+  color: rgb(6, 6, 6);
+  border-bottom: 1px solid black;
+  grid-template-columns: 15% 25% 25% 20% 15%;
+  align-items: center;
+  justify-content: center;
+}
+
+#title-div1 {
+  color: rgb(255, 249, 249);
+  background-color: rgba(14, 17, 21, 0.845);
+  font-weight: bold;
+}
+
+#order-btn {
+  display: flex;
+  gap: 2px;
+}
+#order-btn button {
+  text-align: center;
+  flex: 1;
+  padding: 5px;
+  background-color: green;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}

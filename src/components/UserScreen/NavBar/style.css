@@ -1,0 +1,317 @@
+ 
+#footer-div{
+  display: flex;
+  max-width:100%;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 1px black;
+  background-color: #262626;
+  color: antiquewhite;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 10px;
+  border-top-left-radius:32px ;
+  border-top-right-radius:32px ;
+ 
+}
+ 
+#footer-div h4 {
+  padding-top: 10px;
+  margin-bottom: 15px;
+}
+ 
+#footer-div h2{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#footer-div h4:hover{
+color:orange;
+cursor:pointer;
+}
+
+#homepage-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(
+    var(--first-color),
+    rgb(233, 207, 157),
+    rgb(247, 161, 0)
+  );
+} 
+#homepage-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(
+    var(--first-color),
+    rgb(233, 207, 157),
+    rgb(247, 161, 0)
+  );
+}
+
+#homepage-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(
+    var(--first-color),
+    rgb(233, 207, 157),
+    rgb(247, 161, 0)
+  );
+}
+#main-nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 0.5px 3px 1px black;
+  padding-left: 2px;
+  background-color: white;
+  padding-right: 2px;
+  height: 100%;
+  width: 100%;
+  position:sticky;
+  top: 0%;
+  z-index: 100;
+  left: 0%;
+}
+#main-nav-bar-img-div {
+  display: flex;
+  align-items: center;
+}
+#main-nav-bar-img-div a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--third-color);
+}
+#main-nav-bar-img-div img {
+  width: 90px;
+  height: 90px;
+}
+#main-nav-bar p {
+  font-size: 30px;
+  text-shadow: 1px 1px 1px var(--third-color);
+}
+#main-nav-bar span {
+  font-size: 30px;
+  color: var(--second-color);
+}
+#main-nav-bar input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 0.5px solid var(--second-color);
+}
+#main-nav-bar input:focus {
+ outline: 1px solid orange;
+}
+#main-nav-bar-btns {
+  display: flex;
+  gap: 4px;
+}
+#main-nav-bar-btns button {
+  padding: 10px;
+  background-color: var(--second-color);
+  color: black;
+  border: 0.5px solid var(--second-color);
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#main-nav-bar-btns button:hover {
+  color: var(--first-color);
+  background-color: var(--third-color);
+  border: 0;
+  cursor: pointer;
+}
+#main-nav-bar-btns a{
+  padding: 10px;
+  background-color: var(--second-color);
+  color: black;
+  border: 0.5px solid var(--second-color);
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-nav-bar-btns a:hover {
+  color: var(--first-color);
+  background-color: var(--third-color);
+  border: 0;
+  cursor: pointer;
+}
+
+
+.main-menu-btn {
+  color: rgb(143, 41, 4);
+  cursor: pointer;
+}
+@media all and (max-width:800px) {
+  #main-nav-bar-img-div {
+    display: flex;
+
+    align-items: center;
+  }
+  #main-nav-bar-img-div a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--third-color);
+  }
+  #main-nav-bar-img-div img {
+    width: 70px;
+    height: 70px;
+  }
+  #main-nav-bar p {
+    font-size: 20px;
+    text-shadow: 1px 1px 1px var(--third-color);
+  }
+  #main-nav-bar span {
+    font-size: 20px;
+    color: var(--second-color);
+  }
+  #main-nav-bar input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0.5px solid var(--second-color);
+  }
+  #main-nav-bar input:focus {
+   outline: 1px solid orange;
+  }
+  #main-nav-bar-btns {
+    display: flex;
+    gap: 4px;
+  }
+  #main-nav-bar-btns button {
+    padding: 10px;
+    background-color: var(--second-color);
+    color: black;
+    border: 0.5px solid var(--second-color);
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 80%;
+  }
+  #main-nav-bar-btns button:hover {
+    color: var(--first-color);
+    background-color: var(--third-color);
+    border: 0;
+    cursor: pointer;
+  }
+  #main-nav-bar-btns a{
+    padding: 10px;
+    font-size: 80%;
+    background-color: var(--second-color);
+    color: black;
+    border: 0.5px solid var(--second-color);
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #main-nav-bar-btns a:hover {
+    color: var(--first-color);
+    background-color: var(--third-color);
+    border: 0;
+    cursor: pointer;
+  }
+  
+  
+  .main-menu-btn {
+    color: rgb(143, 41, 4);
+    cursor: pointer;
+  }
+}
+
+@media all and (max-width:530px) {
+  #main-nav-bar-img-div {
+    display: flex;
+ 
+    align-items: center;
+  }
+  #main-nav-bar-img-div a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--third-color);
+  }
+  #main-nav-bar-img-div img {
+   
+    width: 70px;
+    height: 70px;
+  }
+  #main-nav-bar p {
+    display: none;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px var(--third-color);
+  }
+  #main-nav-bar span {
+    display: none;
+    font-size: 20px;
+    color: var(--second-color);
+  }
+  #main-nav-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0.5px solid var(--second-color);
+  }
+  #main-nav-bar input:focus {
+   outline: 1px solid orange;
+  }
+  #main-nav-bar-btns {
+    display: flex;
+    gap: 4px;
+  }
+  #main-nav-bar-btns button {
+    display: none;
+    padding: 10px;
+    background-color: var(--second-color);
+    color: black;
+    border: 0.5px solid var(--second-color);
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 60%;
+  }
+  #main-nav-bar-btns button:hover {
+    color: var(--first-color);
+    background-color: var(--third-color);
+    border: 0;
+    cursor: pointer;
+  }
+  #main-nav-bar-btns a{
+    padding: 10px;
+    font-size: 60%;
+    background-color: var(--second-color);
+    color: black;
+    border: 0.5px solid var(--second-color);
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #main-nav-bar-btns a:hover {
+    color: var(--first-color);
+    background-color: var(--third-color);
+    border: 0;
+    cursor: pointer;
+  }
+  
+  
+  .main-menu-btn {
+    color: rgb(143, 41, 4);
+    cursor: pointer;
+  }
+}

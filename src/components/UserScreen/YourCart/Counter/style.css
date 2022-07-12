@@ -1,0 +1,27 @@
+#cart-items-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0.5px solid rgba(0, 0, 0, 0.407);
+}
+.backg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+.Kh h2{
+  font-size: 90%;
+  margin-bottom: 10px;
+  text-shadow: 0px 0px 1px black;
+}
+.Kh h4{
+  font-size: 90%;
+}

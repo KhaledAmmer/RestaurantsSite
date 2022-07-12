@@ -1,0 +1,74 @@
+#nav-menu-bar {
+  position: sticky;
+  top: 0%;
+  background-color: rgb(34, 35, 36);
+  width: 40vw;
+  height: 100%;
+  min-height: 100vh;
+  max-width: 300px;
+  padding: 2px;
+  color: white;
+}
+#title-nav-bar {
+  background-color: rgb(18, 59, 77);
+  padding: 10px;
+}
+#user-img-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+}
+#user-img-div img {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 50%;
+}
+
+#user-management-div {
+  padding: 10px;
+  background-color: rgb(48, 51, 55);
+  text-align: start;
+}
+.Nav-menu-btn {
+  display: flex;
+  padding: 2px;
+  align-items: center;
+  font-size: 120%;
+  background-color: rgb(72, 74, 78);
+  padding: 10px;
+}
+
+.Nav-menu-btn button {
+  text-align: start;
+  border: 0px;
+  background-color: transparent;
+  padding: 5px;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+}
+.Nav-menu-btn:hover {
+  background-color: black;
+}
+#logout-div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px;
+  background-color: rgb(48, 51, 55);
+  text-align: start;
+  
+}
+#logout-btn {
+  border: 0px;
+  width: 100%;
+  background-color: rgb(48, 51, 55);
+  color: white;
+
+  cursor: pointer;
+}
+
+#logout-btn div:hover{
+ background-color: rgb(205, 17, 17);
+}

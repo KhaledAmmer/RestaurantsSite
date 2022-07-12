@@ -1,0 +1,94 @@
+#main-nav-menu-bar {
+  background-color: rgba(0, 0, 0, 0.415);
+  width: 100vw;
+  height: 100vh;
+  z-index: 200;
+  position: fixed;
+  color: white;
+}
+#main-nav-bar-logo-div {
+  display: flex;
+  align-items: center;
+  padding: var(--button-padding);
+  justify-content: space-evenly;
+}
+#main-nav-bar-logo-div img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+#main-nav-bar-logo-div p {
+  font-size: 20px;
+  text-shadow: 1px 1px 1px var(--third-color);
+}
+#main-nav-bar-logo-div span {
+  font-size: 20px;
+  color: var(--second-color);
+}
+
+#inner-main-nav-menu-bar {
+  background-color: rgb(34, 35, 36);
+  width: 40vw;
+  height: 100vh;
+  max-width: 400px;
+  color: white;
+  padding: 2px;
+}
+
+#main-title-nav-bar {
+  text-align: start;
+  color: white;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 4px;
+  float: right;
+  cursor: pointer;
+}
+
+#user-management-div {
+  padding: 10px;
+  background-color: rgb(48, 51, 55);
+  text-align: start;
+}
+.main-Nav-menu-btn {
+  display: flex;
+  padding: 2px;
+  align-items: center;
+
+  background-color: rgb(72, 74, 78);
+  padding: 10px;
+}
+
+.main-Nav-menu-btn button {
+  text-align: start;
+  border: 0px;
+  font-size: 16px;
+  background-color: transparent;
+  padding: 5px;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+}
+.main-Nav-menu-btn:hover {
+  background-color: black;
+}
+
+#logout-btn1 {
+  border: 0px;
+  width: 100%;
+  background-color: rgb(48, 51, 55);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+#logout-div1 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px;
+  height: 100%;
+  text-align: start;
+}
+#logout-btn1:hover {
+  background-color: red;
+}
